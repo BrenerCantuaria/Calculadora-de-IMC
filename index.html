@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calcule seu IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/scale-weight-svgrepo-com.svg" type="image/x-icon">
+</head>
+<body>
+
+  <section class="container">
+    <h1>TABELA IMC</h1>
+    <div class="content">
+      <div class="content-text">
+        <h1>IMC</h1>
+        <div class="texts">
+          <p>Menos que 18,5</p>
+          <p>Entre 18,5 e 24,9</p>
+          <p>Entre 25 e 29,9</p>
+          <p>Entre 30 e 34,5</p>
+          <p>Entre 35 e 39,9</p>
+          <p>Mais do que 40</p>
+        </div>
+        </div>
+      <div class="content-text">
+        <h1>Resultado</h1>
+        <div class="texts">
+          <p>Abaixo do peso</p>
+          <p>Peso normal</p>
+          <p>Sobrepeso</p>
+          <p>Obesidade grau 1</p>
+          <p>Obesidade grau 2</p>
+          <p>Obesidade grau 3</p>
+        </div>
+        
+      </div>
+     
+    </div>
+    <form id="form">
+      <label for="peso" >Peso</label>
+      <input type="text" id="peso" placeholder="digite seu peso">
+      <div class="erro"></div>
+
+      <label for="altura">Altura</label>
+      <input type="text" id="altura" placeholder="digite sua altura">
+      <div class="erro"></div>
+
+      <button id="calcular">Calcular</button>
+      <div id="resultado"></div>
+    </form>
+  </section>
+  <!-- <div class="img">
+  <img src="" alt="">
+  </div> -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
